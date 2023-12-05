@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your System Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .welcome-section {
+            text-align: center;
+        }
+
+        .about-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .about-rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: #ddd;
+            border: 2px solid #666;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .support-section {
+            text-align: center;
+        }
+
+        .support-chat {
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your System Name</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <main>
+        <section id="home" class="welcome-section">
+            <h2>Welcome to Your System</h2>
+            <!-- Add content for the welcome section -->
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-rectangle">
+                <!-- Add content for the first rectangle in the about section -->
+            </div>
+            <div class="about-rectangle">
+                <!-- Add content for the second rectangle in the about section -->
+            </div>
+        </section>
+
+        <section id="support" class="support-section">
+            <h2>Support Chat</h2>
+            <div class="support-chat">
+                <!-- Add a form for the support chat where users can leave messages -->
+                <form>
+                    <label for="userMessage">Leave your message:</label><br>
+                    <textarea id="userMessage" name="userMessage" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Your System Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
